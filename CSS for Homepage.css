@@ -1,0 +1,91 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background color to white */
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Style the header */
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #38A37F;
+}
+
+/* Style the main content */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+ul.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+ul.footer-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul.footer-links li a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s;
+}
+
+ul.footer-links li a:hover {
+    color: #38A37F;
+}
+
+/* Style the icons */
+i.fa {
+    margin-right: 5px;
+}
