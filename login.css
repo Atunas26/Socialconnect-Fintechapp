@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.form-container {
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    margin: 8% auto 0;
+    text-align: center;
+    border-radius: 30px;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin-bottom: 30PX; 
+}
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
+    border: 1px solid #999;
+    outline: none;
+    background-color: #d9d9d9;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
