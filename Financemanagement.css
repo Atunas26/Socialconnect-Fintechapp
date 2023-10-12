@@ -1,0 +1,26 @@
+body {
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start; /* Adjust as needed: space-between, flex-start, flex-end */
+    align-items: center;
+    background-color: #d9d9d9;
+    padding: 10px; /* Reduced padding */
+    width: 50%; /* Set a specific width for the container */
+    max-width: 400px; /* Set a maximum width for responsiveness */
+    padding: 10px;
+    margin: 20px auto 0
+
+}
+.flex-item {
+    text-align:left;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.flex-item img {
+    width: 50px; /* Set image width as needed */
+    height: 50px; /* Set image height as needed */
+}

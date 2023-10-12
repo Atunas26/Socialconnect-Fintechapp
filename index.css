@@ -1,0 +1,9 @@
+.continue {
+  font-size: medium;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  margin-bottom: 30PX; 
+}
