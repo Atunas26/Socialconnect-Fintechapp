@@ -1,4 +1,9 @@
 body {
+    background-color: #ffffff;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 
 }
 
@@ -23,4 +28,19 @@ body {
 .flex-item img {
     width: 50px; /* Set image width as needed */
     height: 50px; /* Set image height as needed */
+}
+.container-1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1 {
+    width: 154px;
+    height: 110px;
+    margin: 10px;
+    background-color:#38a37f;
+    padding: 10px;
+    margin: 20px;
+
+
 }
