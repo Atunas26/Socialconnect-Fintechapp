@@ -1,46 +1,80 @@
-body {
-    background-color: #ffffff;
+*{
+    padding:0;
     margin: 0;
-    justify-content: center;
-    align-items: center;
+    box-sizing: border-box;
+   
+}
+.icons{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.balance_total {
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    background-color: #38a37f;
+    box-shadow: 10px 10px black;
+    margin-top: 20px;
+}
+body{
+    background: #FFF;
+    width: 100vw;
     height: 100vh;
 
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.flex-container {
+section{
+    margin-top: 20px;
+}
+.back{
     display: flex;
-    justify-content: flex-start; /* Adjust as needed: space-between, flex-start, flex-end */
     align-items: center;
-    background-color: #d9d9d9;
-    padding: 10px; /* Reduced padding */
-    width: 50%; /* Set a specific width for the container */
-    max-width: 400px; /* Set a maximum width for responsiveness */
-    padding: 10px;
-    margin: 20px auto 0
-
-}
-.flex-item {
-    text-align:left;
-    margin: 10px;
-    font-size: 20px;
-}
-
-.flex-item img {
-    width: 50px; /* Set image width as needed */
-    height: 50px; /* Set image height as needed */
-}
-.container-1 {
-    display:flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
-.box-1 {
+    background: #38a37f;
+    
     width: 154px;
     height: 110px;
+   
+    margin-top: 20px ;
+    
+
+}
+
+.one,.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
     margin: 10px;
-    background-color:#38a37f;
-    padding: 10px;
-    margin: 20px;
+}
+ .three{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
+    footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
 
+    @media screen and (min-width:430px){
+        .one,.two{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin: 10px;   
+        }
+}
+
+.last{
+    margin-top: 100px;
+    margin-bottom: 120px;
 }
